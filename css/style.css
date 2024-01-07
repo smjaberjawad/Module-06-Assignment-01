@@ -87,6 +87,7 @@
     background-position: bottom;
     background-size: cover;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 
 .party_title {
@@ -118,11 +119,129 @@
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
-    transition: .5s;
 }
 
-.party_button:hover{
-    transition: .5s;
+.party_button:hover {
     color: #070211;
     background-color: #fff;
+}
+
+/* Place Section */
+#place {
+    padding: 100px 386px 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+#place_title_container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.place_title {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.place_title span {
+    color: #F00;
+}
+
+.place_button {
+    color: #FFF;
+    background-color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.place_button:hover {
+    background-color: black;
+}
+
+/* Celebration Section */
+#celebration {
+    margin-bottom: 120px;
+}
+
+#celebration_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_celebration_column {
+    width: 30%;
+    margin: auto;
+}
+
+.second_celebration_column {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_celebration_column img {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.third_celebration_column {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.third_celebration_column_items img {
+    margin-top: 43px;
+}
+
+.celebration_little_title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.celebration_title {
+    margin-top: 16px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.celebration_description {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.celebration_subtitle {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
 }
