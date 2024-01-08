@@ -247,7 +247,9 @@
 }
 
 /* Sale Section */
-#sale {}
+#sale {
+    margin-bottom: 120px;
+}
 
 .sale_text_sec {
     width: 80%;
@@ -327,4 +329,33 @@
 
 .red img {
     width: 100%;
+}
+
+/* Portfolio Section */
+#portfolio {
+    margin-bottom: 120px;
+}
+
+.portfolio_text_sec {
+    margin-bottom: 50px;
+}
+
+.portfolio_image_sec {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.portfolio_image_first,
+.portfolio_image_second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_image_sec img {
+    width: 32%;
+}
+
+.portfolio_image_sec img:hover {
+    width: 34%;
 }
